@@ -59,7 +59,8 @@
                 <img src="new-arrivals.jpg" alt="">
             </div>
             <div class="cardes-text">
-                <p>Explore New Arrivals <i class="fa-solid fa-arrow-right"></i></p>
+                <p>
+                    Traverse New Arrivals <i class="fa-solid fa-arrow-right"></i></p>
             </div>
         </div>
     </div>

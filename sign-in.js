@@ -46,10 +46,10 @@ document.querySelector(".registation form").addEventListener("submit", function(
     title: "Success",
     text: "Registration successful! Now Login",
     icon: "success",
-    confirmButtonColor: "#916245",});
-    // .then(() => {
-//     window.location.href = "shoe.php";
-//   });
+    confirmButtonColor: "#916245",})
+    .then(() => {
+    window.location.href = "shoe.php";
+  });
 });
 
 
