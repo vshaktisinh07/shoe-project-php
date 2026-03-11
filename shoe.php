@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shoe</title>
     <link rel="icon" type="image/x-icon" href="logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="shoe.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+
 </head>
 
 <body>
@@ -22,14 +25,16 @@
         </div>
         <div class="navbar">
             <div class="logo">
-                <h2>MONTÉR</h2>
+                <a href="shoe.php">
+                    <h2>MONTÉR</h2>
+                </a>
             </div>
             <div class="links">
-                <a href="">Categories</a>
-                <a href="">Shop</a>
-                <a href="">About</a>
-                <a href="">Blog</a>
-                <a href="">Contact</a>
+                <a href="Categories.php">Categories</a>
+                <a href="products.php">Shop</a>
+                <a href="about.php">About</a>
+                <a href="blog.php">Blog</a>
+                <a href="contect.php">Contact</a>
             </div>
             <div class="icons">
                 <a href="" style="color: black;"><i class="fa-solid fa-magnifying-glass"></i></a>
@@ -161,117 +166,8 @@
         </div>
 
 
-        <div class="cards1">
-            <div class="Best-seller-card1">
-                <div class="Best-seller-card1-img">
-                    <img src="shoe1.png" alt="Eclipse Sneakers">
-                </div>
-                <div class="Best-seller-card1-text">
-                    <h3>Eclipse Sneakers </h3>
-                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.3)</p>
-                </div>
-                <div class="card1-rate">
-                    <h4>$ 430.00 USD</h4>
-                    <span>$ 450.00 USD</span>
-                </div>
-
-            </div>
-            <div class="Best-seller-card2">
-                <div class="Best-seller-card2-img">
-                    <img src="shoe2.png" alt="Grvity Oxford Shoe">
-                </div>
-                <div class="Best-seller-card2-text">
-                    <h3>Grvity Oxford Shoe</h3>
-                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.3)</p>
-                </div>
-                <div class="card2-rate">
-                    <h4>$ 400.00 USD</h4>
-                    <span>$ 420.00 USD</span>
-                </div>
-
-            </div>
-            <div class="Best-seller-card3">
-                <div class="Best-seller-card3-img">
-                    <img src="shoe3.png" alt="Flexora Boot">
-                </div>
-                <div class="Best-seller-card3-text">
-                    <h3>Flexora Boot</h3>
-                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.3)</p>
-                </div>
-                <div class="card3-rate">
-                    <h4>$ 520.00 USD</h4>
-                    <span>$ 530.00 USD</span>
-                </div>
-            </div>
-            <div class="Best-seller-card4">
-                <div class="Best-seller-card4-img">
-                    <img src="shoe4.png" alt="Boltrek Sports Shoe">
-                </div>
-                <div class="Best-seller-card4-text">
-                    <h3>Boltrek Sports Shoe</h3>
-                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.3)</p>
-                </div>
-                <div class="card4-rate">
-                    <h4>$ 320.00 USD</h4>
-                    <span>$ 350.00 USD</span>
-                </div>
-            </div>
-        </div>
-        <div class="cards1">
-            <div class="Best-seller-card1">
-                <div class="Best-seller-card1-img">
-                    <img src="shoe5.png" alt="Formal Movo Shoe">
-                </div>
-                <div class="Best-seller-card1-text">
-                    <h3>Formal Movo Shoe </h3>
-                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.1)</p>
-                </div>
-                <div class="card1-rate">
-                    <h4>$ 430.00 USD</h4>
-                    <span>$ 440.00 USD</span>
-                </div>
-
-            </div>
-            <div class="Best-seller-card2">
-                <div class="Best-seller-card2-img">
-                    <img src="shoe6.png" alt="Flexora High Neck">
-                </div>
-                <div class="Best-seller-card2-text">
-                    <h3>Flexora High Neck</h3>
-                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.2)</p>
-                </div>
-                <div class="card2-rate">
-                    <h4>$ 460.00 USD</h4>
-                    <span>$ 480.00 USD</span>
-                </div>
-
-            </div>
-            <div class="Best-seller-card3">
-                <div class="Best-seller-card3-img">
-                    <img src="shoe7.png" alt="Runx Running Shoe">
-                </div>
-                <div class="Best-seller-card3-text">
-                    <h3>Runx Running Shoe</h3>
-                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.3)</p>
-                </div>
-                <div class="card3-rate">
-                    <h4>$ 460.00 USD</h4>
-                    <span>$ 480.00 USD</span>
-                </div>
-            </div>
-            <div class="Best-seller-card4">
-                <div class="Best-seller-card4-img">
-                    <img src="shoe8.png" alt="Yono Loafers">
-                </div>
-                <div class="Best-seller-card4-text">
-                    <h3>Yono Loafers</h3>
-                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.4)</p>
-                </div>
-                <div class="card4-rate">
-                    <h4>$ 510.00 USD</h4>
-                    <span>$ 520.00 USD</span>
-                </div>
-            </div>
+        <div id="best-seller-cards">
+            <!-- Dynamic Best Seller cards will be rendered here by JS -->
         </div>
     </div>
     </div>

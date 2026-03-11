@@ -24,6 +24,8 @@ document.querySelector(".registation form").addEventListener("submit", function(
 
   let users = JSON.parse(localStorage.getItem("users")) || [];
 
+
+
   const exists = users.find(u => u.email === email);
   if (exists) {
   Swal.fire({
@@ -52,7 +54,6 @@ document.querySelector(".registation form").addEventListener("submit", function(
   });
 });
 
-
 // ===== LOGIN =====
 document.querySelector(".login form").addEventListener("submit", function(e) {
   e.preventDefault();
@@ -66,6 +67,21 @@ document.querySelector(".login form").addEventListener("submit", function(e) {
   const user = users.find(
     u => u.username === username && u.password === password
   );
+
+
+ const exists = users.find(u => u.email === email);
+  if (exists) {
+  Swal.fire({
+  icon: "error",
+  title: "Oops...",
+  text: "user is Already log in! ",
+   confirmButtonColor: "#916245", 
+  cancelButtonColor: "#f44336", 
+  footer: '<a href="#">Why do I have this issue?</a>'
+});
+    return;
+  }
+
 
   if (user) {
     localStorage.setItem("loggedInUser", JSON.stringify(user));
