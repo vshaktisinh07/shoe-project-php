@@ -580,6 +580,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="Best-seller-card2">
                 <div class="Best-seller-card2-img">
                     <img src="a2.png" alt="Kixen Loafers">

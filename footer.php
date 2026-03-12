@@ -44,16 +44,16 @@
                 <p>Our Locations</p>
                 <a href="#">NJ Store Location</a>
                 <a href="#">56757 Dream Avenue,Garden City, 234564 New Jersey, USA</a>
-                <a href="#">snikei@gmail.com</a>
-                <a href="#">(345) 123 456 5368</a>
+                <a href="#">support@monter.com</a>
+                <a href="#">+1 (345) 123 456 5368</a>
             </div>
             <div class="add2">
                 <!-- <p>Our Locations</p> -->
                 <a href="#">NY Store Location</a>
                 <a href="#">12273 Dream Avenue,Bronx, 123456
                     New York, USA</a>
-                <a href="#">snikei@gmail.com</a>
-                <a href="#">(313) 123 456 8888</a>
+                <a href="#">security@monter.com</a>
+                <a href="#">+1 (313) 123 456 8888</a>
             </div>
         </div>
     </div>
