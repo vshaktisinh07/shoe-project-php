@@ -25,7 +25,7 @@
         </div>
         <div class="navbar">
             <div class="logo">
-                <a href="shoe.php">
+                <a href="shoe.php" style="text-decoration: none;">
                     <h2>MONTÉR</h2>
                 </a>
             </div>
@@ -55,17 +55,23 @@
                 <span>Shoes</span>
             </div>
             <div class="btn-1">
-                <button>Shop Now</button>
+                <a href="products.php"> <button>Shop Now</button></a>
             </div>
-            <div class="btn-2"><button>Categories</button></div>
+            <div class="btn-2">
+                <a href="Categories.php"><button>Categories</button>
+                </a>
+            </div>
         </div>
         <div class="cardes">
             <div class="cardes-img">
                 <img src="new-arrivals.jpg" alt="">
             </div>
             <div class="cardes-text">
-                <p>
-                    Traverse New Arrivals <i class="fa-solid fa-arrow-right"></i></p>
+                <a href="products.php" style="text-decoration: none; color: black;">
+                    <p>
+                        Traverse New Arrivals <i class="fa-solid fa-arrow-right"></i></p>
+
+                </a>
             </div>
         </div>
     </div>
@@ -135,7 +141,9 @@
                 <span>Formal Shoes</span>
             </div>
             <div class="formal-shoe-btn">
-                <button>Shop Now</button>
+                <a href="products.php">
+                    <button>Shop Now</button>
+                </a>
             </div>
         </div>
 
@@ -153,7 +161,9 @@
                 <span>Running Shoes</span>
             </div>
             <div class="formal-shoe-btn">
-                <button>Shop Now</button>
+                <a href="products.php">
+                    <button>Shop Now</button>
+                </a>
             </div>
         </div>
 
@@ -165,10 +175,126 @@
             <h1>Best Sellers</h1>
         </div>
 
+        <div class="cards1">
+            <div class="Best-seller-card1">
+                <div class="Best-seller-card1-img">
+                    <img src="ns1.png" alt="Eclipse Sneakers">
+                </div>
+                <div class="Best-seller-card1-text">
+                    <h3>Orinzo Running Shoe</h3>
+                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.8)</p>
+                </div>
+                <div class="card1-rate">
+                    <h4>$ 400.00 USD</h4>
+                    <span>$ 420.00 USD</span>
+                </div>
 
-        <div id="best-seller-cards">
-            <!-- Dynamic Best Seller cards will be rendered here by JS -->
+            </div>
+            <div class="Best-seller-card2">
+                <div class="Best-seller-card2-img">
+                    <img src="ns2.png" alt="Kixen Loafers">
+                </div>
+                <div class="Best-seller-card2-text">
+                    <h3>Kixen Loafers</h3>
+                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.5)</p>
+                </div>
+                <div class="card2-rate">
+                    <h4>$ 430.00 USD</h4>
+                    <span>$ 490.00 USD</span>
+                </div>
+
+            </div>
+            <div class="Best-seller-card3">
+                <div class="Best-seller-card3-img">
+                    <img src="ns3.png" alt="Cavora High Neck">
+                </div>
+                <div class="Best-seller-card3-text">
+                    <h3>Cavora High Neck</h3>
+                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.5)</p>
+                </div>
+                <div class="card3-rate">
+                    <h4>$ 320.00 USD</h4>
+                    <span>$ 340.00 USD</span>
+                </div>
+            </div>
+            <div class="Best-seller-card4">
+                <div class="Best-seller-card4-img">
+                    <img src="ns4.png" alt="Formal Rovik Shoe">
+                </div>
+                <div class="Best-seller-card4-text">
+                    <h3>Formal Rovik Shoe</h3>
+                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.3)</p>
+                </div>
+                <div class="card4-rate">
+                    <h4>$ 530.00 USD</h4>
+                    <span>$ 550.00 USD</span>
+                </div>
+            </div>
         </div>
+        <div class="cards1">
+            <div class="Best-seller-card1">
+                <div class="Best-seller-card1-img">
+                    <img src="ns5.png" alt="Zunk Sports Shoe">
+                </div>
+                <div class="Best-seller-card1-text">
+                    <h3>Zunk Sports Shoe</h3>
+                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.1)</p>
+                </div>
+                <div class="card1-rate">
+                    <h4>$ 320.00 USD</h4>
+                    <span>$ 340.00 USD</span>
+                </div>
+
+            </div>
+            <div class="Best-seller-card2">
+                <div class="Best-seller-card2-img">
+                    <img src="ns6.png" alt="Strideon Boot">
+                </div>
+                <div class="Best-seller-card2-text">
+                    <h3>Strideon Boot</h3>
+                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.2)</p>
+                </div>
+                <div class="card2-rate">
+                    <h4>$ 400.00 USD</h4>
+                    <span>$ 450.00 USD</span>
+                </div>
+
+            </div>
+            <div class="Best-seller-card3">
+                <div class="Best-seller-card3-img">
+                    <img src="ns7.png" alt="Thrivo Oxford Shoe">
+                </div>
+                <div class="Best-seller-card3-text">
+                    <h3>Thrivo Oxford Shoe</h3>
+                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.3)</p>
+                </div>
+                <div class="card3-rate">
+                    <h4>$ 400.00 USD</h4>
+                    <span>$ 450.00 USD</span>
+                </div>
+            </div>
+            <div class="Best-seller-card4">
+                <div class="Best-seller-card4-img">
+                    <img src="ns8.png" alt="Stride Sneakers">
+                </div>
+                <div class="Best-seller-card4-text">
+                    <h3>Stride Sneakers</h3>
+                    <p><i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i> (4.4)</p>
+                </div>
+                <div class="card4-rate">
+                    <h4>$ 435.00 USD</h4>
+                    <span>$ 450.00 USD</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div id="best-seller-cards">
+        <!-- Dynamic Best Seller cards will be rendered here by JS -->
+    </div>
     </div>
     </div>
 
@@ -505,21 +631,21 @@
         <div class="footer-links">
             <div class="Navigation-links">
                 <p>Navigation</p>
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Categories</a>
-                <a href="#">Shop</a>
-                <a href="#">Articles</a>
-                <a href="#">Contact</a>
+                <a href="shoe.php">Home</a>
+                <a href="about.php">About Us</a>
+                <a href="Categories.php">Categories</a>
+                <a href="products.php">Shop</a>
+                <a href="blog.php">Articles</a>
+                <a href="contect.php">Contact</a>
             </div>
             <div class="Categories-links">
                 <p>Categories</p>
-                <a href="#">Sneakers</a>
-                <a href="#">Boots</a>
-                <a href="#">Formal</a>
-                <a href="#">Running</a>
-                <a href="#">Oxford</a>
-                <a href="#">Sports Shoe</a>
+                <a href="Categories.php">Sneakers</a>
+                <a href="Categories.php">Boots</a>
+                <a href="Categories.php">Formal</a>
+                <a href="Categories.php">Running</a>
+                <a href="Categories.php">Oxford</a>
+                <a href="Categories.php">Sports Shoe</a>
             </div>
             <div class="Utility-links">
                 <p>Utility Pages</p>
@@ -535,16 +661,16 @@
                 <p>Our Locations</p>
                 <a href="#">NJ Store Location</a>
                 <a href="#">56757 Dream Avenue,Garden City, 234564 New Jersey, USA</a>
-                <a href="#">snikei@gmail.com</a>
-                <a href="#">(345) 123 456 5368</a>
+                <a href="#">service@monter.com</a>
+                <a href="#">+1 (345) 123 456 5368</a>
             </div>
             <div class="add2">
                 <!-- <p>Our Locations</p> -->
                 <a href="#">NY Store Location</a>
                 <a href="#">12273 Dream Avenue,Bronx, 123456
                     New York, USA</a>
-                <a href="#">snikei@gmail.com</a>
-                <a href="#">(313) 123 456 8888</a>
+                <a href="#">support@monter.com</a>
+                <a href="#">+1 (313) 123 456 8888</a>
             </div>
         </div>
     </div>

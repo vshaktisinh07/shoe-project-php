@@ -147,13 +147,13 @@
 
     <div class="Best-seller">
         <div class="Best-seller-text">
-            <span style="font-size: 100px; padding-bottom: 20px;">Contect Now</span>
+            <span style="font-size: 100px; padding-bottom: 20px;">Contact Now</span>
         </div>
 
         <section id="contact">
             <div class="contact_card">
                 <div class="contect_info">
-                    <h1 class="contect_h1">Contect Us</h1>
+                    <h1 class="contect_h1">Contact Us</h1>
                     <p>If you have any questions or inquiries,<br />
                         feel free to reach out to us!</p>
                     <!-- <img src="contectimg.png" alt="" style="width: 500px; height: 380px;"> -->
