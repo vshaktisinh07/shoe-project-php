@@ -16,6 +16,8 @@ $order = 3; // static sample
 <head>
     <title>Dashboard</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+
 </head>
 
 <body>

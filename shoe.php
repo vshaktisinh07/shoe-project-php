@@ -39,7 +39,7 @@
             <div class="icons">
                 <a href="" style="color: black;"><i class="fa-solid fa-magnifying-glass"></i></a>
                 <a href="" style="color: black;"><i class="fa-solid fa-cart-plus"></i></a>
-                <a href="sign-in.html" style="color: black;"><i class="fa-regular fa-user"></i></a>
+                <a href="sign-in.php" style="color: black;"><i class="fa-regular fa-user"></i></a>
             </div>
         </div>
     </div>

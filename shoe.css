@@ -792,3 +792,19 @@ section.card {
   font-family: "poppins";
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .offer-bar {
+    display: none;
+    visibility: hiddens;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .links {
+    flex-direction: column;
+  }
+  .icons {
+    flex-direction: column;
+  }
+}
